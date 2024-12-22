@@ -1,3 +1,5 @@
+By Zdvictor with only React Native + API EXPRESS
+
 🚀 FutSchool
 FutSchool é uma plataforma inovadora para compra de planos de treinamento de futebol, desenvolvida com React Native. A plataforma utiliza uma API Express para gerenciar as operações de backend, incluindo Nodemailer para envio de e-mails. Para a interface, são usados componentes nativos do React Native e react-toast-notifications para notificações amigáveis ao usuário.
 
