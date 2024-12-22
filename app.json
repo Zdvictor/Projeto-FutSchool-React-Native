@@ -4,25 +4,33 @@
     "slug": "futschool",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/fav.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/fav.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zdvictor.futschool"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/fav.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zdvictor.futschool"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/fav.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e44e3e8-d5d5-4c2d-a528-2ff18592964e"
+      }
+    },
+    "owner": "zdvictor"
   }
 }
